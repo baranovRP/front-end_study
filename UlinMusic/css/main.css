@@ -1,0 +1,71 @@
+body, h1, h2, h3, h4, h5, h6, p, li, ul, ol, a, img {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 100;
+    background: #141b23;
+}
+
+.carcase {
+    width: 1000px;
+    height-min: 666px;
+    margin: 0 auto;
+    background: #141b23 url('../img/bg-main.png') top right no-repeat;
+}
+
+.right-margin {
+    margin-left: 54px;
+}
+
+.menu {
+    padding-top: 60px;
+    margin-bottom: 65px;
+}
+
+.menu li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu li:first-child {
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #9da6b5;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    width: 466px;
+    padding-left: 96px;
+    padding-bottom: 185px;
+}
+
+.content h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.content p {
+    margin-bottom: 15px;
+}
+
+.footer {
+    font-size: 12px;
+    padding-bottom: 50px;
+    color: #454a51;
+}
