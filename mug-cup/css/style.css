@@ -1,0 +1,65 @@
+body {
+    font-family: Verdana, sans-serif;
+    color: #666;
+    font-size: 15px;
+}
+
+.container {
+    width: 1024px;
+    padding-left: 42px;
+    padding-right: 42px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #f07c17;
+    font-weight: inherit;
+    padding-bottom: 20px;
+}
+.title-h2{
+    font-size: 24px;
+}
+
+.title-super {
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.right-side {
+    width: 404px;
+}
+
+.main-feature {
+    border: 1px solid #666;
+    width: 374px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.title-main-feature {
+    margin: 30px 0 10px 15px;
+}
+
+.list-main-feature {
+    padding-left: 55px;
+    padding-bottom: 30px;
+}
+
+.list-main-feature li {
+    line-height: 32px;
+    word-spacing: 3px;
+}
+
+.title-content {
+    margin-top: 0;
+}
+
+.content {
+    line-height: 32px;
+    /*letter-spacing: 4px;*/
+    word-spacing: 3px;
+}
+
+.content p {
+    padding-bottom: 0;
+}
