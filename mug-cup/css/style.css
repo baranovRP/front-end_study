@@ -64,9 +64,9 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 0;
 }
 
-.mockup-overlay {
-    top: 0;
-    position: absolute;
-    z-index: -1;
-    opacity: 0.4;
-}
+/*.mockup-overlay {*/
+    /*top: 0;*/
+    /*position: absolute;*/
+    /*z-index: -1;*/
+    /*opacity: 0.4;*/
+/*}*/
