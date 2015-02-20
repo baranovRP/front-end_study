@@ -1,0 +1,81 @@
+*::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*:-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*::-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+
+}
+
+body input:required:valid,
+body textarea:required:valid {
+
+}
+
+body {
+  font-family: 'RobotoRegular', sans-serif;
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+.carousel img {
+  height: auto;
+  width: 100%;
+}
+
+.parallax {
+  background: fixed 50% 0;
+  position: relative;
+}
+
+header {
+  background: url(../img/top-bg.jpg) repeat-x top center;
+  font-family: 'BebasRegular';
+  min-height: 644px;
+  position: relative;
+}
+
+.top-line {
+  background-color: rgba(0, 0, 0, .6);
+  box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
+  -moz-box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
+  -webkit-box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
+  min-height: 97px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.top-addr {
+  background: url(../img/top-map.png) no-repeat center left;
+  padding-left: 60px;
+}
+
+.top-addr strong {
+  color: #d12f22;
+  display: block;
+  /*font-size: 32px;*/
+  font-weight: normal;
+  text-transform: uppercase;
+}
