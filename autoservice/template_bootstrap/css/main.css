@@ -29,10 +29,10 @@ body textarea:required:valid {
 }
 
 body {
-  font-family: 'RobotoRegular', sans-serif;
-  font-size: 16px;
-  min-width: 320px;
   position: relative;
+  min-width: 320px;
+  font-size: 16px;
+  font-family: 'RobotoRegular', sans-serif;
 }
 
 .hidden {
@@ -40,31 +40,31 @@ body {
 }
 
 .carousel img {
-  height: auto;
   width: 100%;
+  height: auto;
 }
 
 .parallax {
-  background: fixed 50% 0;
   position: relative;
+  background: fixed 50% 0;
 }
 
 header {
+  position: relative;
+  min-height: 644px;
   background: url(../img/top-bg.jpg) repeat-x top center;
   color: #fff;
   font-family: 'BebasBold';
-  min-height: 644px;
-  position: relative;
 }
 
 .top-line {
-  background-color: rgba(0, 0, 0, .6);
-  box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
-  -moz-box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
-  -webkit-box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
-  min-height: 97px;
   padding: 22px 0;
-  width: 100%;;
+  min-height: 97px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .6);
+  -webkit-box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
+  -moz-box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
+  box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;;
 }
 
 .top-line a {
@@ -75,30 +75,30 @@ header {
 
 .top-line a:hover {
   border-bottom: transparent 1px dashed;
-  transition: all .25s;
+  -webkit-transition: all .25s;
   -moz-transition: all .25s;
   -ms-transition: all .25s;
   -o-transition: all .25s;
-  -webkit-transition: all .25s;
+  transition: all .25s;
 }
 
 .top-addr {
+  padding-left: 50px;
   background: url(../img/top-map.png) no-repeat top left;
   line-height: 26px;
-  padding-left: 50px;
 }
 
 .top-addr strong {
-  color: #d12f22;
   display: block;
-  font-size: 32px;
-  font-weight: normal;
+  color: #d12f22;
   text-transform: uppercase;
+  font-weight: normal;
+  font-size: 32px;
 }
 
 .ta-right {
-  background-image: none;
   padding-left: 0;
+  background-image: none;
   text-align: right;
 }
 
@@ -107,15 +107,15 @@ header {
 }
 
 .logo-wrap {
-  margin: auto;
   position: relative;
+  margin: auto;
   width: 167px;
 }
 
 .top-line .logo {
-  border-bottom: none;
-  margin-top: -10px;
   position: absolute;
+  margin-top: -10px;
+  border-bottom: none;
 }
 
 .top-line .logo:hover {
@@ -123,28 +123,28 @@ header {
 }
 
 header h1 {
-  color: #fff;
-  font-family: 'BebasRegular';
-  font-size: 40px;
-  font-weight: 400;
   margin-top: 65px;
+  color: #fff;
   text-align: center;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.55);
+  font-weight: 400;
+  font-size: 40px;
+  font-family: 'BebasRegular';
 }
 
 .button {
-  background-color: #d12f22;
-  border-bottom: 4px solid #ac160a;
-  color: #fff;
   display: inline-block;
-  font-family: 'BebasRegular';
-  font-size: 20px;
-  font-weight: 400;
-  height: 50px;
-  line-height: 50px;
   padding: 0 25px;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0);
+  height: 50px;
+  border-bottom: 4px solid #ac160a;
+  background-color: #d12f22;
+  color: #fff;
   vertical-align: middle;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0);
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'BebasRegular';
+  line-height: 50px;
 }
 
 .button:hover {
@@ -160,45 +160,45 @@ header .button {
 }
 
 .st-button {
-  background: #d12f22 url(../img/camera-icon.png) no-repeat 8px 8px;
-  line-height: 18px;
-  padding-left: 63px;
   padding-top: 7px;
+  padding-left: 63px;
+  background: #d12f22 url(../img/camera-icon.png) no-repeat 8px 8px;
   text-align: left;
+  line-height: 18px;
 }
 
 .buttons-top {
-  bottom: 32px;
   position: absolute;
+  bottom: 32px;
   width: 100%;
 }
 
 .top-menu {
-  background-color: rgba(0, 0, 0, .86);
-  box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
-  -moz-box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
-  -webkit-box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
-  color: #fff;
-  font-family: 'BebasRegular';
-  font-size: 20px;
-  font-weight: 400;
   height: 62px;
+  background-color: rgba(0, 0, 0, .86);
+  -webkit-box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
+  -moz-box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
+  box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
+  color: #fff;
   text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'BebasRegular';
 }
 
 .top-menu ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .top-menu a {
-  background: url('../img/top-mnu-iconset.png') no-repeat 20px 19px;
-  border-left: 1px solid rgba(255, 255, 255, 0.18);
-  color: #fff;
   display: block;
-  line-height: 62px;
   padding: 0 26px 0 54px;
+  border-left: 1px solid rgba(255, 255, 255, 0.18);
+  background: url('../img/top-mnu-iconset.png') no-repeat 20px 19px;
+  color: #fff;
+  line-height: 62px;
 }
 
 .top-menu li {
@@ -231,15 +231,15 @@ header .button {
 }
 
 .warranty {
+  float: right;
+  margin-top: 8px;
+  padding: 3px 5px;
   border: 3px solid #fff;
   border-radius: 3px;
   color: #fff;
-  cursor: default;
-  float: right;
   font-size: 15px;
-  padding: 3px 5px;
   line-height: 16px;
-  margin-top: 8px;
+  cursor: default;
 }
 
 .w_left,
@@ -247,11 +247,12 @@ header .button {
   display: inline-block;
   vertical-align: top;
 }
+
 .w_left {
-  font-family: 'BebasBold';
-  font-size: 20px;
   margin-top: 10px;
   margin-right: 7px;
+  font-size: 20px;
+  font-family: 'BebasBold';
 }
 
 .w_left span {
@@ -259,8 +260,8 @@ header .button {
 }
 
 .w_right {
-  font-family: 'RobotoCondensedRegular';
-  font-size: 15px;
-  font-weight: 400;
   text-transform: uppercase;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: 'RobotoCondensedRegular';
 }
