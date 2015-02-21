@@ -51,7 +51,8 @@ body {
 
 header {
   background: url(../img/top-bg.jpg) repeat-x top center;
-  font-family: 'BebasRegular';
+  color: #fff;
+  font-family: 'BebasBold';
   min-height: 644px;
   position: relative;
 }
@@ -62,20 +63,112 @@ header {
   -moz-box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
   -webkit-box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
   min-height: 97px;
-  position: absolute;
-  top: 0;
-  width: 100%;
+  padding: 22px 0;
+  width: 100%;;
+}
+
+.top-line a {
+  border-bottom: #fff dashed 1px;
+  color: #fff;
+  font-size: 21px;
+}
+
+.top-line a:hover {
+  border-bottom: transparent 1px dashed;
+  transition: all .25s;
+  -moz-transition: all .25s;
+  -ms-transition: all .25s;
+  -o-transition: all .25s;
+  -webkit-transition: all .25s;
 }
 
 .top-addr {
-  background: url(../img/top-map.png) no-repeat center left;
-  padding-left: 60px;
+  background: url(../img/top-map.png) no-repeat top left;
+  line-height: 26px;
+  padding-left: 50px;
 }
 
 .top-addr strong {
   color: #d12f22;
   display: block;
-  /*font-size: 32px;*/
+  font-size: 32px;
   font-weight: normal;
   text-transform: uppercase;
+}
+
+.ta-right {
+  background-image: none;
+  padding-left: 0;
+  text-align: right;
+}
+
+.ta-right span {
+  color: #fff;
+}
+
+.logo-wrap {
+  margin: auto;
+  position: relative;
+  width: 167px;
+}
+
+.top-line .logo {
+  border-bottom: none;
+  margin-top: -10px;
+  position: absolute;
+}
+
+.top-line .logo:hover {
+  border-bottom: none;
+}
+
+header h1 {
+  color: #fff;
+  font-family: 'BebasRegular';
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 65px;
+  text-align: center;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.55);
+}
+
+.button {
+  background-color: #d12f22;
+  border-bottom: 4px solid #ac160a;
+  color: #fff;
+  display: inline-block;
+  font-family: 'BebasRegular';
+  font-size: 20px;
+  font-weight: 400;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 25px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0);
+  vertical-align: middle;
+}
+
+.button:hover {
+  background-color: #e64437;
+}
+
+.button:active {
+  background-color: #b81609;
+}
+
+header .button {
+  margin-right: 20px;
+}
+
+.st-button {
+  background: #d12f22 url(../img/camera-icon.png) no-repeat 8px 8px;
+  line-height: 18px;
+  padding-left: 63px;
+  padding-top: 7px;
+  text-align: left;
+}
+
+.buttons-top {
+  bottom: 32px;
+  position: absolute;
+  width: 100%;
 }
