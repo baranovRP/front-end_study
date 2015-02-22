@@ -267,7 +267,7 @@ header .button {
 }
 
 .main_cats {
-  padding: 20px 0 32px;
+  padding: 20px 0 40px;
   background-color: #191919;
 }
 
@@ -277,22 +277,22 @@ section h2 {
 
 .s_black h2::before {
   position: absolute;
-  top: 50px;
+  top: 18px;
   margin-left: -63px;
   width: 50px;
   height: 20px;
   background-image: url(../img/header-img.png);
-  content: "";
+  content: " ";
 }
 
 .s_black h2::after {
   position: absolute;
-  top: 50px;
+  top: 18px;
   margin-left: 13px;
   width: 50px;
   height: 20px;
   background: url(../img/header-img.png) -50px 0;
-  content: "";
+  content: " ";
 }
 
 .main_cats h2 {
@@ -301,7 +301,7 @@ section h2 {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 40px;
-  font-family: 'BebasRegular';
+  font-family: 'BebasBold';
 }
 
 .main_cats h2 strong {
@@ -312,50 +312,22 @@ section h2 {
   color: #d12f22;
 }
 
-.mc_item {
-  border: 1px solid #353535;
-  border-radius: 2px;
+.main_cats .mc_wrap {
+  position: relative;
+  padding: 0;
+  text-align: center;
 }
 
 .mc_item_wrap {
   display: inline-block;
+  margin-bottom: 30px;
   margin-left: 30px;
   width: 160px;
   text-align: center;
 }
 
-.mc_item_wrap:first-child {
+.mc_item_wrap:nth-child(1) {
   margin-left: 0;
-}
-
-.mc_wrap {
-  padding: 0;
-  text-align: center;
-}
-
-.mc_item_wrap a {
-  color: #fff;
-}
-
-.mc_item span {
-  display: block;
-  margin: 15px auto 10px;
-  width: 112px;
-  height: 85px;
-  background-image: url(../img/cats-iconset.png);
-}
-
-.mc_item h4 {
-  margin: 5px auto 7px;
-  color: #fff;
-  font-weight: 400;
-  font-size: 20px;
-  font-family: 'BebasRegular';
-}
-
-.mc_item a:hover h4,
-.mc_item_wrap.active h4 {
-  text-decoration: underline;
 }
 
 .mc_item_wrap.active,
@@ -387,12 +359,70 @@ section h2 {
   background-position: 109px 0;
 }
 
+.mc_item_wrap a {
+  color: #fff;
+}
+
+.mc_item {
+  border: 1px solid #353535;
+  border-radius: 2px;
+}
+
+.mc_item span {
+  display: block;
+  margin: 15px auto 10px;
+  width: 112px;
+  height: 85px;
+  background-image: url(../img/cats-iconset.png);
+}
+
+.mc_item h4 {
+  margin: 5px auto 7px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'BebasRegular';
+}
+
+.mc_item a:hover h4,
+.mc_item_wrap.active h4 {
+  text-decoration: underline;
+}
+
 .mc_toggle {
   height: 25px;
-  cursor: pointer;
   background: #212121 url(../img/mc_arr.png) no-repeat -116px 9px;
+  cursor: pointer;
 }
+
 .mc_item_wrap.active .mc_toggle,
-.mc_item_wrap:hover .mc_toggle{
+.mc_item_wrap:hover .mc_toggle {
   background: #353535 url(../img/mc_arr.png) no-repeat 74px 9px;
 }
+
+body .mc_wrap .mc_item_wrap > ul {
+  background-color: #353535;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 25px;
+  position: absolute;
+  width: 100%;
+  padding: 15px 0;
+  list-style-type: none;
+  left:0;
+  display : block;
+}
+
+.mc_item_wrap.active > ul li {
+  display: inline-block;
+  font-family: 'BebasRegular';
+}
+
+.mc_item_wrap.active > ul li a {
+  padding: 0 10px;
+  text-decoration: underline;
+}
+
+/*.mc_item_wrap.active > ul li a:hover {*/
+  /*text-decoration: none;*/
+/*}*/
