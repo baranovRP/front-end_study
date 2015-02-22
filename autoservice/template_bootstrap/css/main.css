@@ -312,6 +312,87 @@ section h2 {
   color: #d12f22;
 }
 
-/*width: 100px;*/
-/*height: 20px;*/
-/*background-image: url('/static/images/header-img.png');*/
+.mc_item {
+  border: 1px solid #353535;
+  border-radius: 2px;
+}
+
+.mc_item_wrap {
+  display: inline-block;
+  margin-left: 30px;
+  width: 160px;
+  text-align: center;
+}
+
+.mc_item_wrap:first-child {
+  margin-left: 0;
+}
+
+.mc_wrap {
+  padding: 0;
+  text-align: center;
+}
+
+.mc_item_wrap a {
+  color: #fff;
+}
+
+.mc_item span {
+  display: block;
+  margin: 15px auto 10px;
+  width: 112px;
+  height: 85px;
+  background-image: url(../img/cats-iconset.png);
+}
+
+.mc_item h4 {
+  margin: 5px auto 7px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'BebasRegular';
+}
+
+.mc_item a:hover h4,
+.mc_item_wrap.active h4 {
+  text-decoration: underline;
+}
+
+.mc_item_wrap.active,
+.mc_item_wrap:hover {
+  background-color: #2a2a2a;
+}
+
+.mc_item_wrap:nth-child(1) span {
+  background-position: 3px 0;
+}
+
+.mc_item_wrap:nth-child(2) span {
+  background-position: -114px 0;
+}
+
+.mc_item_wrap:nth-child(3) span {
+  background-position: -234px 0;
+}
+
+.mc_item_wrap:nth-child(4) span {
+  background-position: -352px 0;
+}
+
+.mc_item_wrap:nth-child(5) span {
+  background-position: -471px 0;
+}
+
+.mc_item_wrap:nth-child(6) span {
+  background-position: 109px 0;
+}
+
+.mc_toggle {
+  height: 25px;
+  cursor: pointer;
+  background: #212121 url(../img/mc_arr.png) no-repeat -116px 9px;
+}
+.mc_item_wrap.active .mc_toggle,
+.mc_item_wrap:hover .mc_toggle{
+  background: #353535 url(../img/mc_arr.png) no-repeat 74px 9px;
+}
