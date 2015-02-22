@@ -265,3 +265,53 @@ header .button {
   font-size: 15px;
   font-family: 'RobotoCondensedRegular';
 }
+
+.main_cats {
+  padding: 20px 0 32px;
+  background-color: #191919;
+}
+
+section h2 {
+  position: relative;
+}
+
+.s_black h2::before {
+  position: absolute;
+  top: 50px;
+  margin-left: -63px;
+  width: 50px;
+  height: 20px;
+  background-image: url(../img/header-img.png);
+  content: "";
+}
+
+.s_black h2::after {
+  position: absolute;
+  top: 50px;
+  margin-left: 13px;
+  width: 50px;
+  height: 20px;
+  background: url(../img/header-img.png) -50px 0;
+  content: "";
+}
+
+.main_cats h2 {
+  color: #c9c9c9;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 40px;
+  font-family: 'BebasRegular';
+}
+
+.main_cats h2 strong {
+  color: #fff;
+}
+
+.main_cats h2 span {
+  color: #d12f22;
+}
+
+/*width: 100px;*/
+/*height: 20px;*/
+/*background-image: url('/static/images/header-img.png');*/
