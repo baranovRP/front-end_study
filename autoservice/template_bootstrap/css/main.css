@@ -277,7 +277,7 @@ section h2 {
 
 .s_black h2::before {
   position: absolute;
-  top: 18px;
+  top: 15px;
   margin-left: -63px;
   width: 50px;
   height: 20px;
@@ -287,7 +287,7 @@ section h2 {
 
 .s_black h2::after {
   position: absolute;
-  top: 18px;
+  top: 15px;
   margin-left: 13px;
   width: 50px;
   height: 20px;
@@ -400,17 +400,28 @@ section h2 {
   background: #353535 url(../img/mc_arr.png) no-repeat 74px 9px;
 }
 
-body .mc_wrap .mc_item_wrap > ul {
-  background-color: #353535;
-  font-size: 20px;
-  font-weight: 400;
-  margin-top: 25px;
+.mc_item_wrap_af {
   position: absolute;
-  width: 100%;
+  display: none;
+  margin: 14px 69px;
+  width: 22px;
+  height: 11px;
+  background-image: url(../img/mc_ch_arr.png);
+  content: " ";
+}
+
+body .mc_wrap .mc_item_wrap > ul {
+  position: absolute;
+  left: 0;
+  z-index: 10;
+  display: none;
+  margin-top: 25px;
   padding: 15px 0;
+  width: 100%;
+  background-color: #353535;
   list-style-type: none;
-  left:0;
-  display : block;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .mc_item_wrap.active > ul li {
@@ -423,6 +434,15 @@ body .mc_wrap .mc_item_wrap > ul {
   text-decoration: underline;
 }
 
-/*.mc_item_wrap.active > ul li a:hover {*/
-  /*text-decoration: none;*/
-/*}*/
+.mc_item_wrap.active > ul li a:hover {
+  text-decoration: none;
+}
+
+.mc_button_wrap {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.mc_button_wrap .button {
+  width: 216px;
+}
