@@ -29,10 +29,10 @@ body textarea:required:valid {
 }
 
 body {
-  position: relative;
-  min-width: 320px;
-  font-size: 16px;
   font-family: 'RobotoRegular', sans-serif;
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
 }
 
 .hidden {
@@ -40,31 +40,31 @@ body {
 }
 
 .carousel img {
-  width: 100%;
   height: auto;
+  width: 100%;
 }
 
 .parallax {
-  position: relative;
   background: fixed 50% 0;
+  position: relative;
 }
 
 header {
-  position: relative;
-  min-height: 644px;
   background: url(../img/top-bg.jpg) repeat-x top center;
   color: #fff;
   font-family: 'BebasBold';
+  min-height: 644px;
+  position: relative;
 }
 
 .top-line {
-  padding: 22px 0;
-  min-height: 97px;
-  width: 100%;
   background-color: rgba(0, 0, 0, .6);
-  -webkit-box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
   -moz-box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
-  box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;;
+  -webkit-box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
+  box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
+  min-height: 97px;
+  padding: 22px 0;
+  width: 100%;;
 }
 
 .top-line a {
@@ -75,30 +75,30 @@ header {
 
 .top-line a:hover {
   border-bottom: transparent 1px dashed;
-  -webkit-transition: all .25s;
   -moz-transition: all .25s;
   -ms-transition: all .25s;
   -o-transition: all .25s;
+  -webkit-transition: all .25s;
   transition: all .25s;
 }
 
 .top-addr {
-  padding-left: 50px;
   background: url(../img/top-map.png) no-repeat top left;
   line-height: 26px;
+  padding-left: 50px;
 }
 
 .top-addr strong {
-  display: block;
   color: #d12f22;
-  text-transform: uppercase;
-  font-weight: normal;
+  display: block;
   font-size: 32px;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
 .ta-right {
-  padding-left: 0;
   background-image: none;
+  padding-left: 0;
   text-align: right;
 }
 
@@ -107,15 +107,15 @@ header {
 }
 
 .logo-wrap {
-  position: relative;
   margin: auto;
+  position: relative;
   width: 167px;
 }
 
 .top-line .logo {
-  position: absolute;
-  margin-top: -10px;
   border-bottom: none;
+  margin-top: -10px;
+  position: absolute;
 }
 
 .top-line .logo:hover {
@@ -123,28 +123,28 @@ header {
 }
 
 header h1 {
-  margin-top: 65px;
   color: #fff;
+  font-family: 'BebasRegular';
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 65px;
   text-align: center;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.55);
-  font-weight: 400;
-  font-size: 40px;
-  font-family: 'BebasRegular';
 }
 
 .button {
-  display: inline-block;
-  padding: 0 25px;
-  height: 50px;
-  border-bottom: 4px solid #ac160a;
   background-color: #d12f22;
+  border-bottom: 4px solid #ac160a;
   color: #fff;
-  vertical-align: middle;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0);
-  font-weight: 400;
-  font-size: 20px;
+  display: inline-block;
   font-family: 'BebasRegular';
+  font-size: 20px;
+  font-weight: 400;
+  height: 50px;
   line-height: 50px;
+  padding: 0 25px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0);
+  vertical-align: middle;
 }
 
 .button:hover {
@@ -160,45 +160,45 @@ header .button {
 }
 
 .st-button {
-  padding-top: 7px;
-  padding-left: 63px;
   background: #d12f22 url(../img/camera-icon.png) no-repeat 8px 8px;
-  text-align: left;
   line-height: 18px;
+  padding-left: 63px;
+  padding-top: 7px;
+  text-align: left;
 }
 
 .buttons-top {
-  position: absolute;
   bottom: 32px;
+  position: absolute;
   width: 100%;
 }
 
 .top-menu {
-  height: 62px;
   background-color: rgba(0, 0, 0, .86);
-  -webkit-box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
   -moz-box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
+  -webkit-box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
   box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
   color: #fff;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 20px;
   font-family: 'BebasRegular';
+  font-size: 20px;
+  font-weight: 400;
+  height: 62px;
+  text-transform: uppercase;
 }
 
 .top-menu ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  list-style-type: none;
 }
 
 .top-menu a {
-  display: block;
-  padding: 0 26px 0 54px;
-  border-left: 1px solid rgba(255, 255, 255, 0.18);
   background: url('../img/top-mnu-iconset.png') no-repeat 20px 19px;
+  border-left: 1px solid rgba(255, 255, 255, 0.18);
   color: #fff;
+  display: block;
   line-height: 62px;
+  padding: 0 26px 0 54px;
 }
 
 .top-menu li {
@@ -231,15 +231,15 @@ header .button {
 }
 
 .warranty {
-  float: right;
-  margin-top: 8px;
-  padding: 3px 5px;
   border: 3px solid #fff;
   border-radius: 3px;
   color: #fff;
+  cursor: default;
+  float: right;
   font-size: 15px;
   line-height: 16px;
-  cursor: default;
+  margin-top: 8px;
+  padding: 3px 5px;
 }
 
 .w_left,
@@ -249,10 +249,10 @@ header .button {
 }
 
 .w_left {
-  margin-top: 10px;
-  margin-right: 7px;
-  font-size: 20px;
   font-family: 'BebasBold';
+  font-size: 20px;
+  margin-right: 7px;
+  margin-top: 10px;
 }
 
 .w_left span {
@@ -260,48 +260,48 @@ header .button {
 }
 
 .w_right {
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 15px;
   font-family: 'RobotoCondensedRegular';
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .main_cats {
-  padding: 20px 0 40px;
   background-color: #191919;
+  padding: 20px 0 40px;
 }
 
-section h2 {
+section h2, article h2 {
   position: relative;
 }
 
 .s_black h2::before {
-  position: absolute;
-  top: 15px;
-  margin-left: -63px;
-  width: 50px;
-  height: 20px;
   background-image: url(../img/header-img.png);
   content: " ";
+  height: 20px;
+  margin-left: -63px;
+  position: absolute;
+  top: 15px;
+  width: 50px;
 }
 
 .s_black h2::after {
-  position: absolute;
-  top: 15px;
-  margin-left: 13px;
-  width: 50px;
-  height: 20px;
   background: url(../img/header-img.png) -50px 0;
   content: " ";
+  height: 20px;
+  margin-left: 13px;
+  position: absolute;
+  top: 15px;
+  width: 50px;
 }
 
-.main_cats h2 {
+.main_cats h2, article h2 {
   color: #c9c9c9;
+  font-family: 'BebasBold';
+  font-size: 40px;
+  font-weight: 400;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 400;
-  font-size: 40px;
-  font-family: 'BebasBold';
 }
 
 .main_cats h2 strong {
@@ -313,8 +313,8 @@ section h2 {
 }
 
 .main_cats .mc_wrap {
-  position: relative;
   padding: 0;
+  position: relative;
   text-align: center;
 }
 
@@ -322,8 +322,8 @@ section h2 {
   display: inline-block;
   margin-bottom: 30px;
   margin-left: 30px;
-  width: 160px;
   text-align: center;
+  width: 160px;
 }
 
 .mc_item_wrap:nth-child(1) {
@@ -369,19 +369,19 @@ section h2 {
 }
 
 .mc_item span {
+  background-image: url(../img/cats-iconset.png);
   display: block;
+  height: 85px;
   margin: 15px auto 10px;
   width: 112px;
-  height: 85px;
-  background-image: url(../img/cats-iconset.png);
 }
 
 .mc_item h4 {
-  margin: 5px auto 7px;
   color: #fff;
-  font-weight: 400;
-  font-size: 20px;
   font-family: 'BebasRegular';
+  font-size: 20px;
+  font-weight: 400;
+  margin: 5px auto 7px;
 }
 
 .mc_item a:hover h4,
@@ -390,9 +390,9 @@ section h2 {
 }
 
 .mc_toggle {
-  height: 25px;
   background: #212121 url(../img/mc_arr.png) no-repeat -116px 9px;
   cursor: pointer;
+  height: 25px;
 }
 
 .mc_item_wrap.active .mc_toggle,
@@ -401,27 +401,27 @@ section h2 {
 }
 
 .mc_item_wrap_af {
-  position: absolute;
-  display: none;
-  margin: 14px 69px;
-  width: 22px;
-  height: 11px;
   background-image: url(../img/mc_ch_arr.png);
   content: " ";
+  display: none;
+  height: 11px;
+  margin: 14px 69px;
+  position: absolute;
+  width: 22px;
 }
 
 body .mc_wrap .mc_item_wrap > ul {
-  position: absolute;
-  left: 0;
-  z-index: 10;
+  background-color: #353535;
   display: none;
+  font-size: 20px;
+  font-weight: 400;
+  left: 0;
+  list-style-type: none;
   margin-top: 25px;
   padding: 15px 0;
+  position: absolute;
   width: 100%;
-  background-color: #353535;
-  list-style-type: none;
-  font-weight: 400;
-  font-size: 20px;
+  z-index: 10;
 }
 
 .mc_item_wrap.active > ul li {
@@ -445,4 +445,126 @@ body .mc_wrap .mc_item_wrap > ul {
 
 .mc_button_wrap .button {
   width: 216px;
+}
+
+article.content {
+  background-color: #2a2a2a;
+}
+
+article h2.art_header {
+  color: #050505;
+  margin-bottom: 10px;
+}
+
+article h2.art_header::before {
+  background: url(../img/atr_header_img.png) no-repeat;
+  content: " ";
+  height: 20px;
+  margin-left: -63px;
+  position: absolute;
+  top: 15px;
+  width: 50px;
+}
+
+article h2.art_header::after {
+  background: url(../img/atr_header_img.png) no-repeat -50px 0;
+  content: " ";
+  height: 20px;
+  margin-left: 13px;
+  position: absolute;
+  top: 15px;
+  width: 50px;
+}
+
+p.h_descr {
+  color: #050505;
+  margin: 0 auto auto;
+  max-width: 790px;
+  text-align: center;
+}
+
+.home_items {
+  background-color: #d6d6d6;
+  margin-top: 40px;
+  padding: 40px 0;
+}
+
+.hi_item {
+  color: #050505;
+  font-size: 14px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.home_items img {
+  border-top: 8px solid #ac1601;
+  max-height: 231px;
+  max-width: 100%;
+}
+
+.s_bottom img {
+  bottom: 0;
+  max-width: 90%;
+  position: absolute;
+}
+
+.s_bottom {
+  padding-top: 32px;
+}
+
+.sb_header.button_cont {
+  float: right;
+}
+
+.s_bottom h2 {
+  font-family: 'BebasBold';
+  font-size: 36px;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.sb_header {
+  line-height: 50px;
+}
+
+.sb_header .button {
+  max-width: 176px;;
+}
+
+.sb_content {
+  margin-top: 30px;
+}
+
+footer {
+  background-color: #2a2a2a;
+  color: #fff;
+  font-family: 'BebasBold';
+  font-size: 20px;
+  padding: 28px 0 35px;
+}
+
+footer a {
+  color: #fff;
+  padding: 0 10px;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  float: left;
+}
+
+.counter {
+  float: right;
 }
